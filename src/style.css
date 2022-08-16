@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+.card{
+  border: none;
+  box-shadow: 2px 2px 2px black;
+}
+.card:hover{
+    cursor:pointer;
+    /* transform: rotate(5deg); */
+    transform: scaley(1.1);
+    font-family: 'Inter', sans-serif;
+    /* box-shadow: 10px 5px 5px black; */
+  }
+  .title,.links,.propitor{
+    font-family: 'Macondo', cursive;
+  }

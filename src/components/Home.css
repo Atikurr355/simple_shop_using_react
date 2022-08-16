@@ -1,0 +1,32 @@
+
+
+/* .home{
+    width: 100wh;
+    min-height: 60vh;
+    background-color: rgb(77, 6, 77); 
+}
+*/
+.home .htext {
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    /*    border-right: 2px solid crimson;*/
+    animation: text 6s steps(20) infinite alternate;
+}
+
+@keyframes text {
+    0% {
+        width: 0ch;
+    }
+    50% {
+        width: 20ch;
+    }
+}
+.subhome{
+    position: relative;
+    margin-top: 400px;
+}
+
+
+
+
